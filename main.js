@@ -4,21 +4,21 @@ function pergunta1() {
         K += 1;
         SOMA += K;
     }
-    console.log(SOMA)
+    console.log("Soma: " + SOMA);
 }
 
 function pergunta2() {
-    let entrada = 38;
+    let entrada = 55;
     let a = 0, b = 1;
     let fib = [a, b];
-    for (let i = 0; i < 100_000; i++) {
+    for (let i = 0; i < 1_000_000; i++) {
         let prox = a + b;
         fib.push(prox);
         a = b;
         b = prox;
     }
 
-    if (fib.includes(entrada)) console.log("A entrada: " + entrada + "contem na sequencia de fibonacci");
+    if (fib.includes(entrada)) console.log("A entrada: " + entrada + " contem na sequencia de fibonacci");
     else console.log("A entrada: " + entrada + " não contem na sequencia de fibonacci");
 }
 
@@ -71,7 +71,7 @@ function pergunta4() {
 }
 
 function pergunta5() {
-    let palavra = "Desenvolvedor BackEnd"
+    let palavra = "TENET."
     let palavraReversa = "";
 
     let letras = palavra.split('');
