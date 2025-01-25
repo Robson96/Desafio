@@ -1,3 +1,6 @@
+// Meu portifolio: https://rm-portifolio.netlify.app/
+// linkedin: https://www.linkedin.com/in/robson-m-21478b11b/
+
 function pergunta1() {
     let INDICE = 13, SOMA = 0, K = 0;
     while(K < INDICE) {
